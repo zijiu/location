@@ -1,4 +1,4 @@
-package com.hewz.plugins.baidu;
+package com.zijiu.plugins.baidu;
 
 
 import org.apache.cordova.CordovaWebView;
@@ -30,7 +30,7 @@ import com.baidu.location.LocationClientOption.LocationMode;
 /**
  * ionic 百度定位插件 for android
  *
- * @author hewz
+ * @author zijiu
  */
 public class BaiduLocation extends CordovaPlugin {
 
@@ -174,10 +174,8 @@ public class BaiduLocation extends CordovaPlugin {
             builder = new NotificationCompat.Builder(m_context);
           }
 
-          String title = "爱体育-体育实践";
-          String text = "跑步进行时...";
-
-          //PendingIntent  m_PendingIntent = PendingIntent.getActivity(m_context,0, this.cordova.getActivity().getIntent(), PendingIntent.FLAG_UPDATE_CURRENT);
+          String title = "定位中";
+          String text = "持续为您定位...";
 
           int reqCode = random.nextInt();
 

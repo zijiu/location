@@ -1,29 +1,6 @@
 {
-  "_from": "git+https://github.com/hewz/cordova-baidu-location.git",
-  "_id": "hewz.plugins.baidu-location@1.2.0",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/hewz.plugins.baidu-location",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "https://github.com/hewz/cordova-baidu-location",
-    "rawSpec": "https://github.com/hewz/cordova-baidu-location",
-    "saveSpec": "git+https://github.com/hewz/cordova-baidu-location.git",
-    "fetchSpec": "https://github.com/hewz/cordova-baidu-location.git",
-    "gitCommittish": null
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/hewz/cordova-baidu-location.git#ac89fa4af08651c6457f50f4ee101fc467f798b8",
-  "_spec": "https://github.com/hewz/cordova-baidu-location",
-  "_where": "D:\\workFile\\Record\\sports-reform\\sports-reform-app",
-  "bundleDependencies": false,
-  "dependencies": {},
-  "deprecated": false,
+  "name": "zijiu.plugins.baidu-location",
+  "version": "1.2.0",
   "description": "Cordova Android plugin using BaiduLocation sdk",
-  "name": "hewz.plugins.baidu-location",
-  "version": "1.2.0"
+  "dependencies": {}
 }
